@@ -26,7 +26,7 @@ class APITest: XCTestCase {
         XCTAssertFalse(BASE_URL.isEmpty)
     }
     
-    func testGetRequestWithQueryParams() {
+    func testGetRequest() {
         
         let expectedData = "{}".data(using: .utf8)
         
